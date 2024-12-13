@@ -2,7 +2,6 @@
  * --------------------------------------------------------------------------------------------------------------------
  * Example sketch/program showing how to read data from a PICC to serial.
  * --------------------------------------------------------------------------------------------------------------------
- * This is a MFRC522 library example; for further details and other examples see: https://github.com/miguelbalboa/rfid
  * 
  * Example sketch/program showing how to read data from a PICC (that is: a RFID Tag or Card) using a MFRC522 based RFID
  * Reader on the Arduino SPI interface.
@@ -32,7 +31,6 @@
  * SPI MISO    MISO         12 / ICSP-1   50        D12        ICSP-1           14
  * SPI SCK     SCK          13 / ICSP-3   52        D13        ICSP-3           15
  *
- * More pin layouts for other boards can be found here: https://github.com/miguelbalboa/rfid#pin-layout
  */
 
 #include <SPI.h>
